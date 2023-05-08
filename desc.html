@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description</title>
+    <link rel="stylesheet" href="desc.css">
+    <script src="desc.js"></script>
+</head>
+<body>
+    <!-- Container for the image gallery -->
+<div class="flex-container">
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="shoes.png" style="width:300px">
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="top.png" style="width:300px">
+        </div>
+  
+        <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+            <img src="side.png" style="width:300px">
+        </div>
+  
+        <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+            <img src="rear.png" style="width:300px">
+        </div>
+  
+  
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  
+        <!-- Thumbnail images -->
+        <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="shoes.png" style="width:75px" onclick="currentSlide(1)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="top.png" style="width:75px" onclick="currentSlide(2)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="side.png" style="width:75px" onclick="currentSlide(3)" alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="rear.png" style="width:75px" onclick="currentSlide(4)" alt="">
+        </div>
+
+        </div>
+    </div>
+    <div class="container">
+
+    </div>
+
+</div>
+    
+  </div>
+</body>
+</html>
